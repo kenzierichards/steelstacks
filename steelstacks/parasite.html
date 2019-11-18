@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <meta charset="utf-8">
+  <title>Parasite - SteelStacks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link href="parasite.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rokkitt&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-toggleable-md navbar-light bg-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mx-auto" href="#">ArtsQuest</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+              <a class="nav-link active" href="#">SteelStacks <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">Banana Factory</a>
+              <a class="nav-link" href="#">Levitt Pavilion</a>
+              <a class="nav-link" href="#">Musikfest</a>
+              <a class="nav-link" href="#">Christmas City</a>
+              <a class="nav-link" href="#">Foundation</a>
+          </div>
+      </div>
+  </nav>
+
+  <hr>
+
+  <div id="container" class="hidden">
+      <div class="column left" id="sidebar">
+          <img id="logo" src="logo.png">
+          <ul>
+            <a href="#"><li>Home</li></a>
+            <a href="#"><li>Festivals</li></a>
+            <a href="#"><li>About</li></a>
+            <a href="#"><li>Visit</li></a>
+            <a href="#"><li>Rentals</li></a>
+            <a href="#"><li>Support</li></a>
+          </ul>
+
+          <div class="sidebutton"><p>&hearts;  Donate to ArtsQuest</p></div>
+          <div class="sidebutton"><p>  Shop</p></div>
+      </div>
+
+      <div class="column right">
+        <img id="parasite" src="parasite.jpg">
+        <h1>Parasite</h1>
+        <div id="screeninginfo">
+          <p>November 11 – November 21, 2019 · <a href="#date">view days & times</a></p>
+          <p>Price: $10 | $8 student & senior* | $7.50 <a href="#">ArtsQuest Member</a></p>
+          <p>Venue: <a href="#">Frank Banko Alehouse Cinemas</a></p>
+          <div id="movieinfo">
+            <iframe src="https://www.youtube.com/embed/SEUXfv87Wpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>2019 | R | 2h 12min</p>
+            <p>All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.</p>
+            <p>Director: Joon-ho Bong</p>
+            <p>Writers: Joon-ho Bong (screenplay) (as Bong Joon-ho), Han Jin Won (screenplay)</p>
+            <p>Stars: Kang-ho Song, Yeo-jeong Jo, So-dam Park</p>
+          </div>
+        </div>
+        <hr>
+        <div id="currentScreenings">
+          <h2>Monday, November 18</h2>
+          <button type="button" class="btn btn-success">(8:30 pm)</button>
+
+          <h2>Tuesday, November 19</h2>
+          <button type="button" class="btn btn-success">(4:30 pm)</button>
+
+          <h2>Wednesday, November 20</h2>
+          <button type="button" class="btn btn-success">(1:30 pm)</button>
+
+          <h2>Thursday, November 21</h2>
+          <button type="button" class="btn btn-success">(2:15 pm)</button>
+        </div>
+        <hr>
+        <div id="schedule">
+          <button type="button" id="showSchedule" class="btn btn-light">Show Schedule</button>
+          <div id="schedulelist">
+            <h3>Schedule</h3>
+            <ul>
+              <li>Wednesday, November 13, 2019 @ 1:30 PM </li>
+              <li>Wednesday, November 13, 2019 @ 4:15 PM </li>
+              <li>Wednesday, November 13, 2019 @ 7:15 PM </li>
+              <li>Thursday, November 14, 2019 @ 1:30 PM </li>
+              <li>Thursday, November 14, 2019 @ 4:30 PM </li>
+              <li>Friday, November 15, 2019 @ 2:15 PM </li>
+              <li>Friday, November 15, 2019 @ 7:00 PM </li>
+              <li>Saturday, November 16, 2019 @ 11:45 AM </li>
+              <li>Saturday, November 16, 2019 @ 5:00 PM </li>
+              <li>Sunday, November 17, 2019 @ 1:30 PM </li>
+              <li>Sunday, November 17, 2019 @ 7:15 PM </li>
+              <li>Monday, November 18, 2019 @ 4:30 PM </li>
+              <li>Tuesday, November 19, 2019 @ 4:30 PM </li>
+              <li>Wednesday, November 20, 2019 @ 1:00 PM </li>
+              <li>Thursday, November 21, 2019 @ 2:15 PM</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <div id="venueinfo">
+          <h3>Venue Information</h3>
+          <p>Frank Banko Alehouse Cinemas</p>
+          <p>ArtsQuest Center</p>
+          <p>101 Founders Way</p>
+          <p>Bethlehem, PA 18015</p>
+          <p><a href="tel:610-297-7100">610-297-7100</p>
+        </div>
+      </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+
+    $(document).ready(function(){
+      $("#showSchedule").click(function(){
+        $("#schedulelist").slideDown("slow");
+      });
+    });
+
+    $(document).ready(function () {
+      $('#container').fadeIn(1000).removeClass('hidden');
+    });
+  </script>
+</body>
+</html>
